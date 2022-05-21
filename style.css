@@ -35,6 +35,17 @@ body{
     font-size:2rem;
     max-width:400px;
 }
+.header .n1 .hand{
+    display: inline-block;
+    animation: wiggle 0.4s infinite;
+}
+@keyframes wiggle{
+    0%{transform:rotate(0deg);}
+    25%{transform:rotate(7deg);}
+    50%{transform:rotate(0deg);}
+    75%{transform:rotate(-7deg);}
+    100%{transform:rotate(0deg);}
+}
 
 .section1
 {
